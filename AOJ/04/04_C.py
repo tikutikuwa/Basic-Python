@@ -1,18 +1,18 @@
 while True:
 
-    a,op,b = input().split()
+    a, op, b = input().split()
     a = int(a)
     b = int(b)
 
-    if(op=="?"):
+    if (op == "?"):
         break
-    elif(op=="+"):
+    elif (op == "+"):
         print(a+b)
-    elif(op=="-"):
+    elif (op == "-"):
         print(a-b)
-    elif(op=="*"):
+    elif (op == "*"):
         print(a*b)
-    elif(op=="/"):
+    elif (op == "/"):
         print(a//b)
     else:
         pass

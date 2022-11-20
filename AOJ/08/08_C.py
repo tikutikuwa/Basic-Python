@@ -1,6 +1,6 @@
 count_ls = [0 for i in range(26)]
 
-while(True):
+while (True):
     try:
         str = input().lower()
         for ch in str:
@@ -10,4 +10,4 @@ while(True):
         break
 
 for i in range(len(count_ls)):
-    print("{0} : {1}".format(chr(i+ord("a")),count_ls[i]))
+    print("{0} : {1}".format(chr(i+ord("a")), count_ls[i]))

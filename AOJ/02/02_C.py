@@ -1,3 +1,3 @@
-ln = list(map(int,input().split()))
+ln = list(map(int, input().split()))
 ln.sort()
 print(*ln)

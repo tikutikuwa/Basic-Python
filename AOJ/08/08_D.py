@@ -1,9 +1,9 @@
 sample = input()
 target = input()
 
-sample *= 2;
+sample *= 2
 
-if(target in sample):
+if (target in sample):
     print("Yes")
 
 else:

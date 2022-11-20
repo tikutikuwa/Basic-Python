@@ -1,6 +1,6 @@
-while(True):
+while (True):
     x = input()
-    if(x=="0"):
+    if (x == "0"):
         break
 
     print(sum([int(num) for num in x]))
